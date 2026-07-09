@@ -594,7 +594,7 @@ ipcMain.handle("realtime:create-token", async () => {
     headers: {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
-      "OpenAI-Safety-Identifier": crypto.createHash("sha256").update("riley-local-ameen").digest("hex"),
+      "OpenAI-Safety-Identifier": crypto.createHash("sha256").update("ameen-local-ameen").digest("hex"),
     },
     body: JSON.stringify({
       session: {
