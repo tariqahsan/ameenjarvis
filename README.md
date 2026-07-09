@@ -24,7 +24,7 @@ It is built with Electron, React, Vite, TypeScript, and the OpenAI Realtime API.
 ## Quick Start
 
 ```bash
-git clone https://github.com/tariqahsan/ameenjarvis/ameenjarvis.git
+git clone https://github.com/tariqahsan/ameenjarvis.git
 cd ameenjarvis
 npm install -D cross-env
 npm install
